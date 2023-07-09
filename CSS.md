@@ -52,10 +52,13 @@ li{
 ## 중요 요소
 `!important` : 이 명령문장을 우선시해라라는 의미
 
-## css를 이용해 html 엘리먼트 위치변경
-1. display
- * block : 위아래로 쌓임
- * inline : 왼쪽에서 오른쪽으로 정렬되는 성질
+## 레이아웃(display, position)
+1. dispaly
+    1. div는 기본이 block / span은 inline
+    2. 위의 설정을 바꾸기 위해서는 display사용해서 지정
+    3.  * inline : 안의 요소에 맞춰서 박스만들어짐(가로로 나열)
+        * inline-block : 박스 형태지만 가로로 나열
+        * block : 정해준 크기의 박스 형태로 생성(세로로 나열)
 
 2. position
  * static : 기본적으로 가지는 값
@@ -64,5 +67,5 @@ li{
  * fixed : 화면을 기준으로하여 위치 지정
 
 3. float, clear
- * float : 지정된 엘리먼트를 띄우는 효과 (Z축으로)
+ * float : 지정된 엘리먼트를 띄우는 효과,텍스트와 이미지를 배치하는 역할 (Z축으로)-left, center, right
  * clear : float을 감지하지 않도록 하는 방법
