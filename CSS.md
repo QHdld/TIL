@@ -69,3 +69,10 @@ li{
 3. float, clear
  * float : 지정된 엘리먼트를 띄우는 효과,텍스트와 이미지를 배치하는 역할 (Z축으로)-left, center, right
  * clear : float을 감지하지 않도록 하는 방법
+
+4. etc
+* display : flex - 아이템이 왼쪽에서 오른쪽으로 정렬
+* flex-direction : row - 왼쪽에서 오른쪽으로(가로)
+    * row-reverse : 오른쪽에서 왼쪽으로
+* flex-wrap: nowrap(기본값) - 아이템들 사이즈가 유동적(화면 움직일 시)
+    *wrap- 아이템들 사이즈가 지정된 값을 지킴
